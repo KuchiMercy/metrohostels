@@ -14,7 +14,7 @@ interface RoomData {
   roomName: string;
   description: string;
   icons: IconWithLabel[];
-  price: string;
+  price: number;
   location: string;
   proximity: string;
 }
